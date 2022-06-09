@@ -1,7 +1,6 @@
 {
   "name": "loja",
   "version": "0.1.0",
-  "homepage": "github-pages/",
   "private": true,
   "dependencies": {
     "react": "^18.1.0",
