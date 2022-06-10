@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Template de uma loja virtual
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma loja virtual, para pratica de projetos em react com typescript e styled-components.
 
 ## Acessar aplicação <br>
 
