@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     --gray: #A5A1A1;
     --black: #161616;
 
+    font-size: 62.5%;
   }
 
   *{
