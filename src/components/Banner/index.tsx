@@ -1,8 +1,8 @@
-import { Container } from './styles'
+import { BannerImg } from './styles'
+
 export function Banner() {
   return(
-    <Container>
-      <img src="" alt="" />
-    </Container>
+    <BannerImg>
+    </BannerImg>
   )
 }

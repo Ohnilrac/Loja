@@ -2,7 +2,7 @@ import styled from "styled-components";
 import banner from '../../assets/banner.svg'
 
 
-export const Container = styled.div`
+export const BannerImg = styled.div`
   background-image: url(${banner});
   background-size: cover;
   background-position: center ;
