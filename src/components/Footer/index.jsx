@@ -23,7 +23,7 @@ export function Footer(){
           <button>Inscrever</button>
         </Enrollment>
       </div>
-      <Divider />
+      <Divider></Divider>
       <Finaly>
         <Socials>
           <a href="">
