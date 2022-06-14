@@ -28,7 +28,7 @@ export const Container = styled.main`
   grid-template-columns: 1fr 1fr;
 
   section{
-  
+
     img{
       width: 13rem;
       height: 13rem;
