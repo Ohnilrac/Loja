@@ -1,4 +1,3 @@
-import { Divider } from "../Main/styles";
 import { Content, Enrollment, More, Socials, Finaly, Payments } from "./styles";
 
 import insta from "../../assets/insta.svg"
@@ -19,11 +18,12 @@ export function Footer(){
         </More>
         <Enrollment>
           <p>Newsletter</p>
-          <input type="text" placeholder="Digite seu melhor e-mail" />
-          <button>Inscrever</button>
+          <label htmlFor="">
+            <input type="text" placeholder="Digite seu e-mail" />
+            <button>Inscrever</button>
+          </label>
         </Enrollment>
       </div>
-      <Divider></Divider>
       <Finaly>
         <Socials>
           <a href="">

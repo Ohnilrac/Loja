@@ -4,6 +4,14 @@ export const Content = styled.footer`
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+
+  @media (min-width: 760px) {
+    div{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
 `
 
 export const More = styled.section`
@@ -22,6 +30,12 @@ export const More = styled.section`
 
     &:hover{
       cursor: pointer;
+    }
+  }
+
+  @media (min-width: 760px) {
+    a{
+      font-size: 1.6rem;
     }
   }
 `
@@ -65,6 +79,48 @@ export const Enrollment = styled.section`
 
     border: none;
   }
+
+  @media (min-width: 760px) {
+  p{
+    font-size: 1.6rem;
+  }
+
+  input, button{
+    height: 3.5rem;
+  }
+
+  input{
+    border-radius: 3px 0 0 3px;
+
+    &::placeholder{
+      font-size: 1.3rem;
+    }
+  }
+  button{
+    width: 50%;
+    font-size: 1.4rem;
+
+    border-radius: 0 3px 3px 0;
+  }
+
+  label{
+    display: flex;
+  }
+  }
+
+  @media (min-width: 1000px) {
+    input, button{
+      display: inline-block;
+    }
+
+    input{
+      width: 30rem;
+    }
+
+    button{
+      width: 10rem;
+    }
+  }
 `
 
 export const Finaly = styled.div`
@@ -77,6 +133,13 @@ export const Finaly = styled.div`
   img{
     width: 2.3rem;
     height: 2.3rem;
+  }
+
+  @media (min-width: 760px) {
+    img{
+    width: 3.3rem;
+    height: 3.3rem;
+  }
   }
 `
 
