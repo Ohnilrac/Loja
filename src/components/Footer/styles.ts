@@ -78,6 +78,7 @@ export const Enrollment = styled.section`
     background: var(--green);
 
     border: none;
+    margin-bottom: 1rem;
   }
 
   @media (min-width: 760px) {
